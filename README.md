@@ -1,2 +1,2 @@
-# essential_git_commands
+# Comandos GIT
 Relembre os comando utilizados no GIT
