@@ -14,6 +14,15 @@ git config --list
 ```
 
 ```
-git status
+git status (Status completo)
+
+$ git status -s (Status curto)
+ M README                (arquivo modificado)
+ MM Rakefile             (arquivo modificado > stage > modificado)
+ A  lib/git.rb           (arquivo stage)
+ M  lib/simplegit.rb     (arquivo modificado)
+ ?? LICENSE.txt          (arquivo não rastreado)
 ```
+
+- Criando arquivos gitignore
 
