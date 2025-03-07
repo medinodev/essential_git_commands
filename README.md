@@ -43,5 +43,18 @@ cat .gitignore
 - ignorar todos os arquivos .pdf no diretório doc/
  doc/**/*.pdf
 
- HHSHH
+- Saber exatamente as alterações que foram realizadas
+(O que você alterou mas ainda não mandou para o stage (estado preparado)? E o que está no stage, pronto para o commit? )
+
+```
+git diff
+```
+
+- Se você quiser ver as alterações que você mandou para o stage e que entrarão no seu próximo commit
+
+```
+git diff --staged
+```
+
+
 
