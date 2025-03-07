@@ -26,3 +26,22 @@ $ git status -s (Status curto)
 
 - Criando arquivos gitignore
 
+cat .gitignore
+ *.[oa]
+ *~
+
+- ignorar arquivos com extensão .a
+ *.a
+- mas rastrear o arquivo lib.a, mesmo que você esteja ignorando os arquivos .a acima
+ !lib.a
+- ignorar o arquivo TODO apenas no diretório atual, mas não em subdir/TODO
+ /TODO
+- ignorar todos os arquivos no diretório build/
+ build/
+- ignorar doc/notes.txt, mas não doc/server/arch.txt
+ doc/*.txt
+- ignorar todos os arquivos .pdf no diretório doc/
+ doc/**/*.pdf
+
+ HHSHH
+
