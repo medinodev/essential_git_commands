@@ -56,5 +56,18 @@ git diff
 git diff --staged
 ```
 
+- Para ver o que você já mandou para o stage até agora
 
+```
+git diff --cached
+```
+
+- Remover arquivos 
+rm nomeDoArquivo.md
+
+- Ver histórico de commits
+
+```
+git diff --cached
+```
 
